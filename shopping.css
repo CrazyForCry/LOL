@@ -1,0 +1,656 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+		margin: 0;
+		padding: 0;
+}
+ul {
+		list-style-type: none;
+}
+a {
+		text-decoration: none;
+		color: #9f9f9f;
+		font-size: 12px;
+}
+div {
+		display: block;
+}
+body {
+		color: #2e2e2e;
+		/*				position: relative;*/
+		/*				background: #f3f4f6 url("bg-index.jpg")no-repeat top center;*/
+}
+.clearbox {
+		clear: both;
+}
+/*右侧固定栏*/
+#FanHui {
+		position: fixed;
+		width: 80px;
+		height: 80px;
+		background-color: steelblue;
+		right: 5%;
+		text-align: center;
+		line-height: 100px;
+		bottom: 20%;
+		z-index: 9999;
+}
+#FanHui a {
+		display: block;
+		width: 80px;
+		height: 80px;
+		line-height: 80px;
+		color: orange;
+		font-size: 18px;
+		font-weight: bold;
+}
+#FanHui a:hover {
+		background-color: aquamarine;
+}
+.All {
+		/*
+				background-image: url("bg-head.jpg");
+				background-repeat: no-repeat;
+				margin: 0 auto;
+				position: absolute;
+				left: 355px;
+*/
+}
+/*顶部登陆*/
+#Top {
+		width: 1190px;
+		height: 30px;
+		line-height: 30px;
+		color: #9f9f9f;
+		position: relative;
+		top: 0;
+		left: 355px;
+}
+#Top .Lan {
+		width: 1190px;
+		margin: 0 auto;
+}
+#Top .Lan .Lan-left {
+		float: left;
+		height: 30px;
+		overflow: hidden;
+}
+#Top .Lan .Lan-left a {
+		background-color: transparent;
+		font-size: 12px;
+		color: #9f9f9f;
+}
+#Top .Lan .Lan-left a span:nth-child(1) {
+		float: left;
+		width: 11px;
+		height: 16px;
+		background-image: url("indexico.png");
+		background-repeat: no-repeat;
+		background-position: -42px -823px;
+		margin-top: 7px;
+		margin-left: 3px;
+}
+#Top .Lan .Lan-left a span:nth-child(2) {
+		color: black;
+}
+#Top .Lan .Lan-right {
+		width: 600px;
+		float: right;
+}
+#Top .Lan .Lan-right ul li {
+		float: left;
+}
+#Top .Lan .Lan-right ul li:first-child {
+		margin-left: 240px;
+}
+#Top .Lan .Lan-right ul li a {
+		margin-left: 7px;
+}
+#Top .Lan .Lan-right ul li a:hover {
+		text-decoration: underline;
+		text-decoration-color: #9f9f9f;
+}
+/*中部广告栏*/
+#Middle {
+		height: 220px;
+		width: 100%;
+		position: relative;
+		background-image: url("bg-head.jpg");
+		background-repeat: no-repeat;
+}
+#Middle .Middle-up {
+		height: 96px;
+		width: 1190px;
+		margin: 0 auto;
+}
+#Middle .Middle-up .Middle-up-left {
+		float: left;
+		width: 280px;
+		height: 52px;
+}
+#Middle .Middle-up .Middle-up-left a {
+		display: block;
+		width: 280px;
+		height: 55px;
+		background-image: url("navico.png");
+		background-repeat: no-repeat;
+		background-position: -670px -5px;
+		color: #3a3f4a;
+		margin-top: 40px;
+}
+#Middle .Middle-up .Middle-up-middle {
+		width: 522px;
+		height: 50px;
+		background-image: url("navico.png");
+		background-repeat: no-repeat;
+		background-position: -999px 0;
+		position: relative;
+		float: left;
+		margin-top: 40px;
+		margin-left: 70px;
+}
+#Middle .Middle-up .Middle-up-middle a {
+		display: block;
+		width: 52px;
+		height: 50px;
+		background-image: url("navico.png");
+		background-repeat: no-repeat;
+		background-position: -1558px 0;
+		position: absolute;
+		right: -49px;
+		top: 2px;
+}
+#Middle .Middle-up .Middle-up-middle input {
+		float: left;
+		width: 516px;
+		height: 46px;
+		line-height: 46px;
+		color: #9f9f9f;
+		font-size: 14px;
+		background: none;
+		vertical-align: middle;
+		outline: none;
+		letter-spacing: normal;
+}
+#Middle .Middle-up .Middle-up-right {
+		float: right;
+		width: 223px;
+		height: 59px;
+		margin-top: 36px;
+		margin-left: 20px;
+}
+#Middle .Middle-up .Middle-up-right a {
+		display: block;
+		width: 223px;
+		height: 59px;
+		background-image: url("navico.png");
+		background-repeat: no-repeat;
+		background-position: -437px -5px;
+}
+#Middle .Middle-down {
+		width: 1190px;
+		position: relative;
+		top: 30px;
+		left: 355px;
+}
+#Middle .Middle-down .Middle-down-top {
+		width: 1190px;
+		height: 76px;
+		position: relative;
+}
+#Middle .Middle-down .Middle-down-top ul {
+		width: 940px;
+		height: 76px;
+		position: relative;
+		float: left;
+}
+#Middle .Middle-down .Middle-down-top ul li {
+		float: left;
+		width: 134px;
+		height: 76px;
+		text-align: center;
+		line-height: 76px;
+}
+#Middle .Middle-down .Middle-down-top ul li a {
+		font-size: 24px;
+}
+#Middle .Middle-down .Middle-down-top ul li a:hover {
+		color: orangered;
+}
+#Middle .Middle-down .Middle-down-top ul li:first-child {
+		background-image: url("navico.png");
+		background-repeat: no-repeat;
+		background-position: -275px -5px;
+}
+#Middle .Middle-down .Middle-down-top ul li:first-child a {
+		color: white;
+}
+#Middle .Middle-down .Middle-down-top .Middle-down-top-right {
+		width: 192px;
+		height: 76px;
+		line-height: 76px;
+		text-align: center;
+		font-size: 24px;
+		position: relative;
+		float: right;
+		margin-right: 30px;
+}
+#Middle .Middle-down .Middle-down-top .Middle-down-top-right a {
+		display: block;
+		width: 192px;
+		color: #ff5900;
+		font-size: 24px;
+		text-indent: 24px;
+}
+#Middle .Middle-down .Middle-down-top .Middle-down-top-right a i {
+		font-style: normal;
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 10;
+		width: 60px;
+		height: 76px;
+		line-height: 76px;
+		text-align: center;
+		font-size: 24px;
+		overflow: hidden;
+		text-indent: 0;
+		/*			color: #ff5900;*/
+}
+#Middle .Middle-down .Middle-down-top .Middle-down-top-right a span {
+		display: block;
+		width: 28px;
+		height: 24px;
+		position: absolute;
+		background-image: url("navico.png");
+		background-repeat: no-repeat;
+		background-position: -237px -5px;
+		top: 25px;
+		left: 35px;
+}
+/*		位置提示*/
+#Address {
+		width: 1190px;
+		margin: 0 auto;
+		padding-right: 60px;
+		height: 30px;
+}
+#Message {
+		width: 1190px;
+		height: 600px;
+		margin: 0 auto;
+}
+#Message .Message-SH {
+		width: 1160px;
+		height: 100px;
+		margin: 0 auto;
+}
+#Message .Message-SH div {
+		width: 1160px;
+		height: 34px;
+		line-height: 50px;
+		margin: 0 auto;
+		padding-top: 10px;
+		border-bottom: 1px solid #cccccc;
+		font-size: 16px;
+		font-weight: bold;
+}
+#Message .Message-SH p {
+		float: left;
+		font-size: 14px;
+		padding-top: 25px;
+}
+#Message .Message-SH form {
+		float: left;
+		padding-top: 20px;
+		margin-left: 20px;
+}
+#Message .Message-SH form select {
+		width: 180px;
+		height: 30px;
+		line-height: 30px;
+		border-color: #cccccc;
+}
+#Message .Message-SP {
+		width: 1160px;
+		height: 370px;
+		margin: 0 auto;
+}
+#Message .Message-SP .Message-SP-message {
+		width: 1160px;
+		height: 34px;
+		line-height: 50px;
+		margin: 0 auto;
+		padding-top: 10px;
+		border-bottom: 1px solid #cccccc;
+		font-size: 16px;
+		font-weight: bold;
+}
+#Message .Message-SP .Message-SP-top {
+		width: 1160px;
+		height: 50px;
+		padding-top: 10px;
+		line-height: 50px;
+		border-bottom: 1px solid #cccccc;
+}
+#Message .Message-SP .Message-SP-top .Message-SP-top-left {
+		width: 400px;
+		height: 48px;
+		float: left;
+		font-size: 14px;
+		font-weight: normal;
+		border: none;
+}
+#Message .Message-SP .Message-SP-top .Message-SP-top-left input {
+		margin-left: 20px;
+}
+#Message .Message-SP .Message-SP-top .Message-SP-top-left span {
+		margin-left: 130px;
+}
+#Message .Message-SP .Message-SP-top .Message-SP-top-right {
+		width: 716px;
+		height: 58px;
+		line-height: 68px;
+		font-size: 14px;
+		font-weight: normal;
+		float: right;
+}
+#Message .Message-SP .Message-SP-top .Message-SP-top-right ul {
+		width: 755px;
+		height: 58px;
+		display: flex;
+		justify-content: space-around;
+}
+#Message .Message-SP .Message-SP-top .Message-SP-top-right ul li {
+		height: 58px;
+		line-height: 58px;
+}
+#Message .Message-SP .Message-SP-top .Message-SP-top-right ul li:last-child {
+		margin-right: 50px;
+}
+#Message .Message-SP .Message-SP-top .Message-SP-top-right ul li span {
+		display: block;
+}
+#Message .Message-SP .Message-SP-bottom {
+		width: 1160px;
+		height: 50px;
+		border-bottom: 1px solid #cccccc;
+}
+#Message .Message-SP .Message-SP-bottom .Message-SP-bottom-left {
+		width: 400px;
+		height: 48px;
+		line-height: 48px;
+		float: left;
+		padding-left: 30px;
+}
+#Message .Message-SP .Message-SP-bottom .Message-SP-bottom-left input {
+		float: left;
+		margin-top: 20px;
+}
+#Message .Message-SP .Message-SP-bottom .Message-SP-bottom-left img {
+		margin-top: 10px;
+		padding-left: 30px;
+		float: left;
+}
+#Message .Message-SP .Message-SP-bottom .Message-SP-bottom-left span {
+		display: block;
+		float: left;
+		margin-left: 10px;
+		font-size: 14px;
+		font-weight: bold;
+}
+#Message .Message-SP .Message-SP-bottom .Message-SP-bottom-right {
+		width: 716px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 14px;
+		font-weight: normal;
+		float: right;
+}
+#Message .Message-SP .Message-SP-bottom .Message-SP-bottom-right ul {
+		width: 755px;
+		height: 40px;
+		display: flex;
+		justify-content: space-around;
+}
+#Message .Message-SP .Message-SP-bottom .Message-SP-bottom-right ul li {
+		text-align: center;
+		width: 100px;
+		height: 40px;
+		line-height: 40px;
+}
+#Message .Message-SP .Message-SP-bottom .Message-SP-bottom-right ul li:nth-child(4) {
+		position: relative;
+}
+#Message .Message-SP .Message-SP-bottom .Message-SP-bottom-right ul li:nth-child(4) a:first-of-type {
+		display: block;
+		width: 10px;
+		height: 20px;
+		text-align: center;
+		line-height: 20px;
+		background-color: darkgray;
+		color: black;
+		position: absolute;
+		top: 10px;
+		left: 30px;
+}
+#Message .Message-SP .Message-SP-bottom .Message-SP-bottom-right ul li:nth-child(4) a:last-of-type {
+		display: block;
+		width: 10px;
+		height: 20px;
+		text-align: center;
+		line-height: 20px;
+		background-color: darkgray;
+		color: black;
+		position: absolute;
+		top: 10px;
+		left: 60px;
+}
+#Message .Message-SP .Message-SP-bottom .Message-SP-bottom-right ul li:last-child {
+		margin-right: 50px;
+}
+#Message .Message-SP .Message-SP-bottom .Message-SP-bottom-right ul li:last-child a {
+		color: blue;
+}
+#Message .Message-SP .Message-SP-bottom .Message-SP-bottom-right ul li span {
+		display: block;
+}
+#Message .Message-YH {
+		width: 1160px;
+		height: 85px;
+		margin: 0 auto;
+}
+#Message .Message-YH .Message-YH-message {
+		width: 1160px;
+		height: 34px;
+		line-height: 50px;
+		margin: 0 auto;
+		padding-top: 10px;
+		border-bottom: 1px solid #cccccc;
+		font-size: 16px;
+		font-weight: bold;
+}
+#Message .Message-YH p {
+		margin-top: 20px;
+		width: 130px;
+		float: left;
+		font-size: 14px;
+}
+#Message .Message-YH p span {
+		color: red;
+}
+#Message .Message-YH a {
+		margin-top: 22px;
+		color: blue;
+		float: left;
+}
+#Message .Message-TJ {
+		width: 1160px;
+		height: 65px;
+		margin: 0 auto;
+}
+#Message .Message-TJ p {
+		float: right;
+}
+#Message .Message-TJ p span {
+		color: red;
+		font-size: 24px;
+}
+#Message .Message-TJ form {
+		float: right;
+}
+#Message .Message-TJ form button {
+		width: 100px;
+		height: 40px;
+		color: white;
+		background-color: gray;
+		border: none;
+}
+/*底部栏*/
+#Bottom {
+		margin-top: 20px;
+		width: 100%;
+		height: 360px;
+		background-color: #3B3F4A;
+		position: relative;
+		/*	
+				position: absolute;
+				left: -355px;
+*/
+}
+#Bottom .Bottom-up {
+		padding: 25px 0 33px 28px;
+		width: 1252px;
+		margin: 0 auto;
+		height: 130px;
+}
+#Bottom .Bottom-up .Bottom-up-left {
+		width: 910px;
+		height: 150px;
+		float: left;
+}
+#Bottom .Bottom-up .Bottom-up-left ul:first-child {
+		width: 910px;
+		display: flex;
+		height: 150px;
+		justify-content: space-around;
+}
+#Bottom .Bottom-up .Bottom-up-left ul:first-child li:nth-child(1) {
+		width: 180px;
+		border-right: 1px solid #444853;
+		position: relative;
+}
+#Bottom .Bottom-up .Bottom-up-left ul:first-child li:nth-child(1) h4 {
+		color: #acb1bb;
+}
+#Bottom .Bottom-up .Bottom-up-left ul:first-child li:nth-child(1) span {
+		display: block;
+		width: 32px;
+		height: 32px;
+		background-image: url("icon.png");
+		background-repeat: no-repeat;
+		background-position: 0 -136px;
+		position: absolute;
+		top: -10px;
+		left: -34px;
+}
+#Bottom .Bottom-up .Bottom-up-left ul:first-child li:nth-child(2) {
+		width: 180px;
+		border-right: 1px solid #444853;
+		position: relative;
+}
+#Bottom .Bottom-up .Bottom-up-left ul:first-child li:nth-child(2) h4 {
+		color: #acb1bb;
+}
+#Bottom .Bottom-up .Bottom-up-left ul:first-child li:nth-child(2) span {
+		display: block;
+		width: 32px;
+		height: 32px;
+		background-image: url("icon.png");
+		background-repeat: no-repeat;
+		background-position: -32px -136px;
+		position: absolute;
+		top: -10px;
+		left: -34px;
+}
+#Bottom .Bottom-up .Bottom-up-left ul:first-child li:nth-child(3) {
+		width: 180px;
+		border-right: 1px solid #444853;
+		position: relative;
+}
+#Bottom .Bottom-up .Bottom-up-left ul:first-child li:nth-child(3) h4 {
+		color: #acb1bb;
+}
+#Bottom .Bottom-up .Bottom-up-left ul:first-child li:nth-child(3) span {
+		display: block;
+		width: 32px;
+		height: 32px;
+		background-image: url("icon.png");
+		background-repeat: no-repeat;
+		background-position: -63px -136px;
+		position: absolute;
+		top: -10px;
+		left: -34px;
+}
+#Bottom .Bottom-up .Bottom-up-left ul:first-child li:nth-child(4) {
+		width: 180px;
+		border-right: 1px solid #444853;
+		position: relative;
+}
+#Bottom .Bottom-up .Bottom-up-left ul:first-child li:nth-child(4) h4 {
+		color: #acb1bb;
+}
+#Bottom .Bottom-up .Bottom-up-left ul:first-child li:nth-child(4) span {
+		display: block;
+		width: 32px;
+		height: 32px;
+		background-image: url("icon.png");
+		background-repeat: no-repeat;
+		background-position: -95px -136px;
+		position: absolute;
+		top: -10px;
+		left: -34px;
+}
+#Bottom .Bottom-up .Bottom-up-left a:hover {
+		text-decoration: underline;
+		text-decoration-color: #acb1bb;
+}
+#Bottom .Bottom-up-right {
+		width: 298px;
+		border: none;
+		height: 150px;
+		margin-left: 12px;
+		float: right;
+}
+#Bottom .Bottom-up-right ul li {
+		float: left;
+		margin-left: 40px;
+		width: 100px;
+		height: 150px;
+		display: block;
+		overflow: hidden;
+}
+#Bottom .Bottom-up-right ul li p {
+		color: #acb1bb;
+		text-align: center;
+		margin-top: 10px;
+}
+#Bottom .Bottom-down {
+		width: 1280px;
+		height: 100px;
+		margin: 0 auto;
+		padding-top: 25px;
+		border-top: 1px solid #444853;
+}
+#Bottom .Bottom-down p {
+		text-align: center;
+		color: #acb1bb;
+}
+#Bottom .Bottom-down p a:hover {
+		text-decoration: underline;
+		text-decoration-color: #acb1bb;
+}
+#Bottom .Bottom-down p:nth-child(2) {
+		font-size: 12px;
+}
