@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./reset.css"/>
+		<title>注册</title>
+		<style type="text/css">
+			body{
+				width: 100%;
+				height: 935px;
+				background-image:url(img/da7cbd8b1e26e5b1ad28bc426b6e08d2.jpeg) ;
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+			}
+			.register{
+				width: 600px;
+				height: 600px;
+				border: 1px solid #00FFFF;
+				margin:  0 auto;
+				margin-top: 30px;
+				background-image: linear-gradient(to right bottom,#ccf6c8 25%,#fafcc2 50%,#f6d6ad 75%,#f9c0c0 100%);
+			}
+			.register h1{
+				text-align: center;
+				font-size: 24px;
+				margin-top: 20px;
+			}
+			.register form {
+				text-align: center;
+			}
+			.register form  input{
+				width: 300px;
+				margin-top: 30px;
+				height: 40px;
+			}
+			#fixed{
+				width: 50px;
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+				border-radius: 50%;
+				position: fixed;
+				right: 60px;
+				bottom: 60px;
+				background-color: #0DA0B4;
+			}
+			#fixed a{
+				display: block;
+				width: 100%;
+				height: 100%;
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="register">
+			<h1>请填写以下信息注册</h1>
+			<form action="#" method="get">
+				<input type="text" id="username" placeholder="请输入用户名" />
+				<input type="password" id="password" placeholder="请输入密码" />
+				<input type="tel"  id="tel" placeholder="请输入手机号" />
+				<input type="email"  id="email" placeholder="请输入邮箱" />
+				<input type="button" id="btn" value="注册"/>
+			</form>
+		</div>
+		<div id="fixed">
+			<a href="英雄联盟.html">返回首页</a>
+		</div>
+	</body>
+	<script src="jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$('#username').change(function(){
+			console.log($(this).val())
+			alert("你的用户名是"+$(this).val());
+		})
+		$('#password').change(function(){
+			alert("你的密码是"+$(this).val());
+		})
+		$('#tel').change(function(){
+			alert("你的电话号码是"+$(this).val());
+		})
+		$('#email').change(function(){
+			alert("你的邮箱是"+$(this).val());
+		})
+		$('#btn').click(function(){
+			if($('#username').val() != "" && $('#password').val() != "" && $('#tel').val() != "" && $('#email').val() != "" ){
+				alert("注册成功");
+				window.location.href = "登陆.html"
+			}else{
+				alert("请重新填写信息")
+			}
+			
+		})
+	</script>
+</html>

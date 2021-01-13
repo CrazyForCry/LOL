@@ -71,7 +71,7 @@ ul {
 .TOP .JianBian .TuBiao01 {
 		width: 21px;
 		height: 21px;
-		background-image: url("topfoot-spr.png");
+		background-image: url("img/topfoot-spr.png");
 		background-size: 405px 178px;
 		background-repeat: no-repeat;
 		background-position: -381px -39px;
@@ -80,7 +80,7 @@ ul {
 		bottom: 35px;
 }
 .TOP .JianBian .TuBiao02 {
-		background-image: url("topfoot-spr.png");
+		background-image: url("img/topfoot-spr.png");
 		background-size: 405px 178px;
 		background-repeat: no-repeat;
 		background-position: -303px -84px;
@@ -102,7 +102,7 @@ ul {
 }
 .TOP .JianBian .TuBiao03 span {
 		display: inline-block;
-		background-image: url("topfoot-spr.png");
+		background-image: url("img/topfoot-spr.png");
 		background-repeat: no-repeat;
 		background-position: -216px -117px;
 		background-size: 405px 178px;
@@ -124,7 +124,7 @@ ul {
 }
 .TOP .JianBian .TuBiao04 a {
 		display: block;
-		background-image: url("topfoot-spr.png");
+		background-image: url("img/topfoot-spr.png");
 		background-size: 405px 178px;
 		background-repeat: no-repeat;
 		background-position: -216px -39px;
@@ -414,7 +414,7 @@ ul {
 .Middle .Middle-right-down a i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-repeat: no-repeat;
 		background-position: -213px -126px;
 		width: 15px;
@@ -502,7 +502,7 @@ ul {
 .NeiRong001 .NeiRong001-left .NeiRong001-left-up ul li a i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-repeat: no-repeat;
 		background-position: -213px -126px;
 		width: 15px;
@@ -539,7 +539,7 @@ ul {
 .NeiRong001 .NeiRong001-left .NeiRong001-left-down ul li:nth-child(1):hover::after {
 		content: '银河战争通行证';
 		display: block;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-size: 393px 210px;
 		background-repeat: no-repeat;
 		background-color: rgba(88, 88, 88, 0.5);
@@ -558,7 +558,7 @@ ul {
 .NeiRong001 .NeiRong001-left .NeiRong001-left-down ul li:nth-child(2):hover::after {
 		content: '银河太空秘宝';
 		display: block;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-size: 393px 210px;
 		background-repeat: no-repeat;
 		background-color: rgba(88, 88, 88, 0.5);
@@ -577,7 +577,7 @@ ul {
 .NeiRong001 .NeiRong001-left .NeiRong001-left-down ul li:nth-child(3):hover::after {
 		content: '克隆大作战';
 		display: block;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-size: 393px 210px;
 		background-repeat: no-repeat;
 		width: 188px;
@@ -596,7 +596,7 @@ ul {
 .NeiRong001 .NeiRong001-left .NeiRong001-left-down ul li:nth-child(4):hover::after {
 		content: '真实伤害 赛娜';
 		display: block;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-size: 393px 210px;
 		background-repeat: no-repeat;
 		width: 188px;
@@ -701,7 +701,7 @@ ul {
 .NeiRong001 .NeiRong001-right .NeiRong001-right-down ul:first-child li:nth-child(1) i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-repeat: no-repeat;
 		background-size: 393px 200px;
 		background-position: -316px -12px;
@@ -711,7 +711,7 @@ ul {
 .NeiRong001 .NeiRong001-right .NeiRong001-right-down ul:first-child li:nth-child(2) i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-repeat: no-repeat;
 		background-size: 393px 200px;
 		background-position: -219px -72px;
@@ -721,7 +721,7 @@ ul {
 .NeiRong001 .NeiRong001-right .NeiRong001-right-down ul:first-child li:nth-child(3) i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-repeat: no-repeat;
 		background-size: 393px 200px;
 		background-position: -343px -12px;
@@ -731,7 +731,7 @@ ul {
 .NeiRong001 .NeiRong001-right .NeiRong001-right-down ul:first-child li:nth-child(4) i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-repeat: no-repeat;
 		background-size: 393px 200px;
 		background-position: -193px -72px;
@@ -741,7 +741,7 @@ ul {
 .NeiRong001 .NeiRong001-right .NeiRong001-right-down ul:last-child li:nth-child(1) i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-repeat: no-repeat;
 		background-size: 393px 200px;
 		background-position: -280px -125px;
@@ -754,7 +754,7 @@ ul {
 .NeiRong001 .NeiRong001-right .NeiRong001-right-down ul:last-child li:nth-child(1) span {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-repeat: no-repeat;
 		background-size: 393px 200px;
 		background-position: -301px -46px;
@@ -766,7 +766,7 @@ ul {
 .NeiRong001 .NeiRong001-right .NeiRong001-right-down ul:last-child li:nth-child(2) i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-repeat: no-repeat;
 		background-size: 393px 200px;
 		background-position: -371px -12px;
@@ -776,7 +776,7 @@ ul {
 .NeiRong001 .NeiRong001-right .NeiRong001-right-down ul:last-child li:nth-child(3) i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-repeat: no-repeat;
 		background-size: 393px 200px;
 		background-position: -274px -16px;
@@ -786,7 +786,7 @@ ul {
 .NeiRong001 .NeiRong001-right .NeiRong001-right-down ul:last-child li:nth-child(4) i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-repeat: no-repeat;
 		background-size: 393px 200px;
 		background-position: -193px -16px;
@@ -858,7 +858,7 @@ ul {
 		font-size: 16px;
 		color: #cdbe91;
 		text-align: center;
-		background-image: url("index-spr.png");
+		background-image: url("img/index-spr.png");
 		background-repeat: no-repeat;
 		background-size: 638px 572px;
 		background-color: rgba(88, 88, 88, 0.2);
@@ -950,7 +950,7 @@ ul {
 		display: block;
 		width: 240px;
 		height: 120px;
-		background-image: url("6.jpg");
+		background-image: url("img/6.jpg");
 		background-size: 240px 120px;
 		position: absolute;
 		top: 0;
@@ -968,7 +968,7 @@ ul {
 .NeiRong002 .NeiRong002-right .NeiRong002-right-right-top a:hover::after {
 		content: '开发者日志：云顶之弈';
 		display: block;
-		background-image: url("index-spr.png");
+		background-image: url("img/index-spr.png");
 		background-size: 638px 574px;
 		background-repeat: no-repeat;
 		background-position: -401px 0;
@@ -1000,7 +1000,7 @@ ul {
 }
 .NeiRong002 .NeiRong002-right .NeiRong002-right-right-bottom i {
 		display: inline-block;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-position: -342px -99px;
 		background-size: 393px 200px;
 		width: 15px;
@@ -1051,7 +1051,7 @@ ul {
 .NeiRong003 .NeiRong003-left .NeiRong003-left-up a i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-repeat: no-repeat;
 		background-position: -213px -126px;
 		width: 15px;
@@ -1135,7 +1135,7 @@ ul {
 .NeiRong003 .NeiRong003-right .NeiRong003-right-right ul li:nth-child(1) a:last-child i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("index-spr.png");
+		background-image: url("img/index-spr.png");
 		background-repeat: no-repeat;
 		background-size: 638px 572px;
 		background-position: -484px -226px;
@@ -1159,7 +1159,7 @@ ul {
 .NeiRong003 .NeiRong003-right .NeiRong003-right-right ul li:nth-child(2) a:last-child i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("index-spr.png");
+		background-image: url("img/index-spr.png");
 		background-repeat: no-repeat;
 		background-size: 638px 572px;
 		background-position: -484px -226px;
@@ -1183,7 +1183,7 @@ ul {
 .NeiRong003 .NeiRong003-right .NeiRong003-right-right ul li:nth-child(3) a:last-child i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("index-spr.png");
+		background-image: url("img/index-spr.png");
 		background-repeat: no-repeat;
 		background-size: 638px 572px;
 		background-position: -484px -226px;
@@ -1216,7 +1216,7 @@ ul {
 .NeiRong003 .NeiRong003-right .NeiRong003-right-right ul li:nth-child(4) a i {
 		display: inline-block;
 		vertical-align: middle;
-		background-image: url("comm-spr.png");
+		background-image: url("img/comm-spr.png");
 		background-repeat: no-repeat;
 		background-position: -342px -99px;
 		width: 15px;
@@ -1236,7 +1236,7 @@ ul {
 		background-color: #E3E2E2;
 }
 .Bottom .Bottom-left {
-		width: 860px;
+		width: 840px;
 		text-align: center;
 		line-height: 265px;
 		float: left;
@@ -1250,7 +1250,7 @@ ul {
 		text-align: left;
 }
 .Bottom .Bottom-left a:first-child {
-		background-image: url("topfoot-spr.png");
+		background-image: url("img/topfoot-spr.png");
 		background-repeat: no-repeat;
 		background-size: 405px 178px;
 		background-position: -216px 0;
@@ -1259,7 +1259,7 @@ ul {
 		float: none;
 }
 .Bottom .Bottom-left a:last-child {
-		background-image: url("topfoot-spr.png");
+		background-image: url("img/topfoot-spr.png");
 		background-repeat: no-repeat;
 		background-size: 405px 178px;
 		background-position: -216px -84px;

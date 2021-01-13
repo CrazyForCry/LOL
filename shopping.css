@@ -84,7 +84,7 @@ body {
 		float: left;
 		width: 11px;
 		height: 16px;
-		background-image: url("indexico.png");
+		background-image: url("img/indexico.png");
 		background-repeat: no-repeat;
 		background-position: -42px -823px;
 		margin-top: 7px;
@@ -115,7 +115,7 @@ body {
 		height: 220px;
 		width: 100%;
 		position: relative;
-		background-image: url("bg-head.jpg");
+		background-image: url("img/bg-head.jpg");
 		background-repeat: no-repeat;
 }
 #Middle .Middle-up {
@@ -132,7 +132,7 @@ body {
 		display: block;
 		width: 280px;
 		height: 55px;
-		background-image: url("navico.png");
+		background-image: url("img/navico.png");
 		background-repeat: no-repeat;
 		background-position: -670px -5px;
 		color: #3a3f4a;
@@ -141,7 +141,7 @@ body {
 #Middle .Middle-up .Middle-up-middle {
 		width: 522px;
 		height: 50px;
-		background-image: url("navico.png");
+		background-image: url("img/navico.png");
 		background-repeat: no-repeat;
 		background-position: -999px 0;
 		position: relative;
@@ -153,7 +153,7 @@ body {
 		display: block;
 		width: 52px;
 		height: 50px;
-		background-image: url("navico.png");
+		background-image: url("img/navico.png");
 		background-repeat: no-repeat;
 		background-position: -1558px 0;
 		position: absolute;
@@ -183,7 +183,7 @@ body {
 		display: block;
 		width: 223px;
 		height: 59px;
-		background-image: url("navico.png");
+		background-image: url("img/navico.png");
 		background-repeat: no-repeat;
 		background-position: -437px -5px;
 }
@@ -218,7 +218,7 @@ body {
 		color: orangered;
 }
 #Middle .Middle-down .Middle-down-top ul li:first-child {
-		background-image: url("navico.png");
+		background-image: url("img/navico.png");
 		background-repeat: no-repeat;
 		background-position: -275px -5px;
 }
@@ -263,7 +263,7 @@ body {
 		width: 28px;
 		height: 24px;
 		position: absolute;
-		background-image: url("navico.png");
+		background-image: url("img/navico.png");
 		background-repeat: no-repeat;
 		background-position: -237px -5px;
 		top: 25px;
@@ -548,7 +548,7 @@ body {
 		display: block;
 		width: 32px;
 		height: 32px;
-		background-image: url("icon.png");
+		background-image: url("img/icon.png");
 		background-repeat: no-repeat;
 		background-position: 0 -136px;
 		position: absolute;
@@ -567,7 +567,7 @@ body {
 		display: block;
 		width: 32px;
 		height: 32px;
-		background-image: url("icon.png");
+		background-image: url("img/icon.png");
 		background-repeat: no-repeat;
 		background-position: -32px -136px;
 		position: absolute;
@@ -586,7 +586,7 @@ body {
 		display: block;
 		width: 32px;
 		height: 32px;
-		background-image: url("icon.png");
+		background-image: url("img/icon.png");
 		background-repeat: no-repeat;
 		background-position: -63px -136px;
 		position: absolute;
@@ -605,7 +605,7 @@ body {
 		display: block;
 		width: 32px;
 		height: 32px;
-		background-image: url("icon.png");
+		background-image: url("img/icon.png");
 		background-repeat: no-repeat;
 		background-position: -95px -136px;
 		position: absolute;

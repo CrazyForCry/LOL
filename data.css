@@ -18,7 +18,7 @@ div {
 body {
 		color: #2e2e2e;
 		position: relative;
-		background: #f3f4f6 url("bg-index.jpg")no-repeat top center;
+		background: #f3f4f6 url("img/bg-index.jpg")no-repeat top center;
 }
 .clearbox {
 		clear: both;
@@ -48,7 +48,7 @@ body {
 		background-color: aquamarine;
 }
 .All {
-		background-image: url("cont-index.jpg");
+		background-image: url("img/cont-index.jpg");
 		background-repeat: no-repeat;
 		margin: 0 auto;
 		/*			height: 1000px;*/
@@ -80,7 +80,7 @@ body {
 		float: left;
 		width: 11px;
 		height: 16px;
-		background-image: url("indexico.png");
+		background-image: url("img/indexico.png");
 		background-repeat: no-repeat;
 		background-position: -42px -823px;
 		margin-top: 7px;
@@ -130,7 +130,7 @@ body {
 		display: block;
 		width: 280px;
 		height: 55px;
-		background-image: url("navico.png");
+		background-image: url("img/navico.png");
 		background-repeat: no-repeat;
 		background-position: -670px -5px;
 		color: #3a3f4a;
@@ -139,7 +139,7 @@ body {
 #Middle .Middle-up .Middle-up-middle {
 		width: 522px;
 		height: 50px;
-		background-image: url("navico.png");
+		background-image: url("img/navico.png");
 		background-repeat: no-repeat;
 		background-position: -999px 0;
 		position: relative;
@@ -151,7 +151,7 @@ body {
 		display: block;
 		width: 52px;
 		height: 50px;
-		background-image: url("navico.png");
+		background-image: url("img/navico.png");
 		background-repeat: no-repeat;
 		background-position: -1558px 0;
 		position: absolute;
@@ -181,7 +181,7 @@ body {
 		display: block;
 		width: 223px;
 		height: 59px;
-		background-image: url("navico.png");
+		background-image: url("img/navico.png");
 		background-repeat: no-repeat;
 		background-position: -437px -5px;
 }
@@ -213,7 +213,7 @@ body {
 		color: orangered;
 }
 #Middle .Middle-down .Middle-down-top ul li:first-child {
-		background-image: url("navico.png");
+		background-image: url("img/navico.png");
 		background-repeat: no-repeat;
 		background-position: -275px -5px;
 }
@@ -258,7 +258,7 @@ body {
 		width: 28px;
 		height: 24px;
 		position: absolute;
-		background-image: url("navico.png");
+		background-image: url("img/navico.png");
 		background-repeat: no-repeat;
 		background-position: -237px -5px;
 		top: 25px;
@@ -478,7 +478,7 @@ body {
 		font-size: 22px;
 		color: #efd4c9;
 		text-indent: 30px;
-		background-image: url("indexico.png");
+		background-image: url("img/indexico.png");
 		background-repeat: no-repeat;
 }
 #NRJS .NRJS-right a:nth-child(1) {
@@ -490,7 +490,7 @@ body {
 #NRJS .NRJS-right .NRJS-right-down {
 		width: 187px;
 		height: 208px;
-		background-image: url("indexico.png");
+		background-image: url("img/indexico.png");
 		background-repeat: no-repeat;
 		background-position: -5px -5px;
 }
@@ -567,7 +567,7 @@ body {
 		text-align: center;
 		width: 251px;
 		height: 420px;
-		background: url("indexico.png") no-repeat;
+		background: url("img/indexico.png") no-repeat;
 		background-position: -188px -770px;
 		transition: all .2s linear;
 }
@@ -581,7 +581,7 @@ body {
 		left: 40px;
 		width: 56px;
 		height: 46px;
-		background-image: url("bg.png");
+		background-image: url("img/bg.png");
 		background-repeat: no-repeat;
 		background-position: -350px -89px;
 		text-align: center;
@@ -805,7 +805,7 @@ body {
 		display: block;
 		width: 32px;
 		height: 32px;
-		background-image: url("icon.png");
+		background-image: url("img/icon.png");
 		background-repeat: no-repeat;
 		background-position: 0 -136px;
 		position: absolute;
@@ -824,7 +824,7 @@ body {
 		display: block;
 		width: 32px;
 		height: 32px;
-		background-image: url("icon.png");
+		background-image: url("img/icon.png");
 		background-repeat: no-repeat;
 		background-position: -32px -136px;
 		position: absolute;
@@ -843,7 +843,7 @@ body {
 		display: block;
 		width: 32px;
 		height: 32px;
-		background-image: url("icon.png");
+		background-image: url("img/icon.png");
 		background-repeat: no-repeat;
 		background-position: -63px -136px;
 		position: absolute;
@@ -862,7 +862,7 @@ body {
 		display: block;
 		width: 32px;
 		height: 32px;
-		background-image: url("icon.png");
+		background-image: url("img/icon.png");
 		background-repeat: no-repeat;
 		background-position: -95px -136px;
 		position: absolute;
